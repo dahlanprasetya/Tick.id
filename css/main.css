@@ -1,0 +1,192 @@
+/********** 
+**HEADER***
+***********/
+
+header {
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: crimson;
+    /* border-bottom: 1px solid white; */
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'a b c';
+}
+
+
+
+
+/* Bar kiri */
+#location {
+    color: yellow;
+}
+
+#nav-bar-left li {
+    list-style: none;
+    display: inline-block;
+}
+
+#navbarDropdown {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: blanchedalmond;
+    color: crimson;
+}
+/* Bar-Tengah */
+
+#logo{
+    text-decoration: none;
+    color: yellow;
+    
+    grid-area: b;    
+}
+
+#nav-bar-middle {
+    text-align: center;
+}
+
+/* Bar-Kanan */
+
+#nav-bar-right {
+    margin: 0;
+    grid-area: c;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+#nav-bar-right li {
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    padding-left: 20%;
+    list-style: none;
+}
+
+#nav-bar-right a {
+    color: white;
+    padding-right: 8px;
+    text-align: center;
+}
+
+#nav-bar-right i {
+    color: yellow;
+}
+
+/********** 
+**Section***
+***********/
+
+/* Atas */
+#home {
+    background-color: crimson;
+    color: White;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home button {
+    border: transparent;
+}
+
+
+/* Now Playing */
+
+#now-playing-text{
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+#now-playing a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Promotion */
+#carouselControls {
+    width: 400px;
+    height: 500px;
+}
+
+#promotion {
+    background-color: crimson;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Coming Soon */
+
+#coming-soon-text {
+    font-family: 'Ubuntu', sans-serif;
+}
+/********** 
+**Footer***
+***********/
+
+#footer {
+    background-color: crimson;
+    color: white;
+    margin: 0px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#icon-ig:hover {
+    color: yellow;
+}
+
+#icon-twitter:hover {
+    color: yellow;
+}
+
+/* modal */
+
+#booknowModal .modal-content {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#booknow-button {
+    background-color: cornflowerblue;
+    border: transparent;
+    color: white;
+}
+
+#signupModal .modal-content {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#signup-button {
+    background-color: cornflowerblue;
+    border: transparent;
+    color: white;
+}
+
+#loginModal .modal-content{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#login-button {
+    background-color: cornflowerblue;
+    border: transparent;
+    color: white;
+}
+
+/* Poster guardian */
+
+#poster-guardian {
+    width: 800px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+#data {
+    background-color: transparent;
+}

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="image/png" href="img/flash.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+    <title>Guardians of the Galaxy Vol. 2</title>
+  </head>
+  <body>
+        <header>
+            <!--Nav-bar-->
+            <nav class="container">
+                <!--Bar Kiri-->
+                <ul id="nav-bar-left">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i id="location" class="fas fa-map-marker-alt"></i>
+                        Location
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Jakarta</a>
+                        <a class="dropdown-item" href="#">Bandung</a>
+                        <a class="dropdown-item" href="#">Bogor</a>
+                        <a class="dropdown-item" href="#">Surabaya</a>
+                        <a class="dropdown-item" href="#">Yogyakarta</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Another City Coming Soon</a>
+                    </div>
+                    </li>
+                    <!-- <li><a href="signUp.html">Now Playing</a></li>
+                    <li><a href="signUp.html">Promotion</a></li>
+                    <li><a href="signUp.html">Coming Soon</a></li> -->
+                </ul>
+                <!--Logo-->
+                <a id="nav-bar-middle" class="navbar-brand text-white" href="tickid.html"><img src="img/flash.png"/>
+                
+                </a>
+    
+                <!--Bar kanan-->
+                <ul id="nav-bar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#signupModal"><i class="far fa-plus-square"></i> Sign Up</i></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#loginModal"><i class="fas fa-sign-in-alt"></i> Log In</i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Home-->
+        <div class="jumbotron jumbotron-fluid pt-0 pb-0" id="home">
+            <div class="container">
+                <img class="img-fluid" id="poster-guardian" src="img/home-guardian.jpg" />
+            </div>
+        </div>
+
+        <!--data-->
+        <div id="data-film">
+            <!-- <div class="container">
+                <p class="text-center display-4"></p>   
+                <div>
+                    <p></p>
+                    <p></p>
+                    <p>Director: </p>
+                    <p>Writer: </p>
+                    <p>Actors: </p>
+                </div>
+            </div> -->
+        </div>
+
+        <!--footer-->
+        <div class="jumbotron jumbotron-fluid pt-0 mt-4 pb-4" id="footer">
+            <div class="container">
+                <div class="row">
+                <div class="col-sm">
+                    <h1 class="display-5 pt-3"><link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"><img src="img/flash64.png"/>Tick.id</h1>
+                    Tick.id is a movies discovery
+                    with on-demand ticket order services.
+                    Now you can buy your tickets easily
+                    trough Tick.id!!!
+                    <p></p>
+                    © 2018 Tick INDONESIA
+                    <p></p>
+                    <a href="#"><i id="icon-ig" class="fab fa-instagram mr-2"></i>
+                    <i id="icon-twitter" class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 offsite-1">
+                    <a href="#">
+                        <p class="pt-4">About Us</p>
+                        <p></p>
+                        Terms & Conditions
+                        <p></p>
+                        Privacy Policy
+                        <p></p>
+                        FAQ
+                        <p></p>
+                        Contact Us
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <h1 class="display-4 pt-4">Subscribe</h1>
+                    Get the latest update for exciting movies around you!
+                    <form>
+                        <div class="form-row align-items-center pt-4">
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInput">Name</label>
+                            <input type="email" class="form-control mb-2" id="inlineFormInput" placeholder="Email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script> dataGuardian(); </script>
+  </body>
+</html>
